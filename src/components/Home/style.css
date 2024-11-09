@@ -19,7 +19,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 50px;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
@@ -140,7 +140,7 @@ html {
   .mobile-view-profile {
     /* position: relative; */
     display: block;
-    width: 150px;
+    width: 200px;
     margin-top: 20px;
     top: 10%;
     aspect-ratio: 4/4;

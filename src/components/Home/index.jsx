@@ -7,7 +7,6 @@ import {
 } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6";
-
 import {
   Disclosure,
   DisclosureButton,
@@ -15,9 +14,7 @@ import {
 } from "@headlessui/react";
 
 import Skills from "../Skills";
-
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
 import "./style.css";
 
 const navigation = [
@@ -39,13 +36,19 @@ const projectList = [
     projectUrl: "https://rajuxecommerce.ccbp.tech/",
     name: "E-Commerce",
     description:
-      "E-Commerce Website like Amazon, Flipkar where users can log in and see the list of products with search, filters, sort by, etc...",
+      "E-Commerce Website like Amazon, Flipkart where users can log in and see the list of products with search, filters, sort by, etc...",
   },
   {
     id: 2,
-    projectUrl: "https://rajuxecommerce.ccbp.tech/",
+    projectUrl: "https://rajuxfoodx.ccbp.tech/",
     name: "Food Munch",
     description: "Food Munch website is a user-centric food tech website",
+  },
+  {
+    id: 3,
+    projectUrl: "https://rajuxdailymood.ccbp.tech/",
+    name: "Daily Mood Tracker",
+    description: "A Daily Mood Tracker website is tracking your Daily moods",
   },
 ];
 
